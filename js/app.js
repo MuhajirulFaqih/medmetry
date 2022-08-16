@@ -1,24 +1,20 @@
 (function ($) {
     "use strict";
     // Toggler navbar
-    $('.nav-toggle').click(function () {
-        $('.nav').toggleClass('active')
-        $('.nav-overlay').toggleClass('active')
+    $(".nav-menu-content-dropdown").click(function() {
+        $(this).find("ul").toggleClass("show");
     })
-    $('.nav-close').click(function () {
-        $('.nav').toggleClass('active')
-        $('.nav-overlay').toggleClass('active')
+    $(".nav-menu-content-dropdown").click(function() {
+        $(this).toggleClass("show");
     })
-    $('.nav-overlay').click(function () {
-        $('.nav').toggleClass('active')
-        $('.nav-overlay').toggleClass('active')
+    $(".toggle").click(function() {
+        $(".nav-menu-content").toggleClass("show");
     })
-    $('.nav a').click(function () {
-        $('.nav').toggleClass('active')
-        $('.nav-overlay').toggleClass('active')
+    $(".toggle-close").click(function() {
+        $(".nav-menu-content").toggleClass("show");
     })
 
-    AOS.init({ offset: 0, duration: 1000, delay: 100 });
+    AOS.init({ offset: 0, duration: 500, delay: 50 });
 
 })(window.jQuery);
 
@@ -71,3 +67,36 @@ function onScroll() {
       }
     });
 }
+
+var owlSlider = $('#owl-testimony');
+owlSlider.owlCarousel({
+    navigation: true,
+    nav: false,
+    dots: false,
+    dotsEach: 1,
+    autoWidth: false,
+    loop: true,
+    responsiveClass: true,
+    margin: 24,
+    items: 1,
+    autoplay: true,
+    smartSpeed: 300,
+    animateIn: 'ease-in-out',
+    animateOut: 'ease-in-out',
+    responsive: {
+        480: {
+            items: 4,
+        },
+        992: {
+            slideBy: 1,
+            items: 4
+        }
+    }
+});
+
+$(".owl-previous").click(function() {
+    owlSlider.trigger('prev.owl.carousel')
+})
+$(".owl-next").click(function() {
+    owlSlider.trigger('next.owl.carousel')
+})

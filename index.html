@@ -16,19 +16,22 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
 </head>
 <body>
-    <section id="hero">
+    <section id="hero" class="position-relative">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 px-0">
+                <div class="col-lg-12 px-xl-0 px-lg-3">
                    <div class="nav-menu d-flex justify-content-between align-items-center">
                         <div class="nav-menu-logo">
-                            <img src="assets/img/logo.png" alt="">
+                            <img src="assets/img/logo.png" alt="" data-aos="fade-up">
                         </div>
-                        <div class="nav-menu-content">
+                        <div class="nav-menu-content" data-aos="fade-up">
                             <ul>
+                                <li class="d-lg-none d-block text-end py-0">
+                                    <img src="assets/img/icons/toggle-close.svg" class="toggle-close" alt="">
+                                </li>
                                 <li><a href="">Home</a></li>
                                 <li class="nav-menu-content-dropdown">
-                                    <a href="">Jobs <img src="assets/img/icons/dropdown.svg"></a>
+                                    <a href="javascript:void(0);">Jobs <img src="assets/img/icons/dropdown.svg"></a>
                                     <ul>
                                         <li><a href="">Jobs 1</a></li>
                                         <li><a href="">Jobs 2</a></li>
@@ -38,17 +41,25 @@
                                 <li><a href="">Healthcare Staffing</a></li>
                                 <li><a href="">About</a></li>
                                 <li><a href="">Blog</a></li>
+                                <li class="d-lg-none d-md-block text-center py-0">
+                                    <div class="nav-menu-cta" data-aos="fade-up">
+                                        <a class="btn-1">Login</a>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
-                        <div class="nav-menu-cta">
-                            <a class="btn-1">Login</a>
+                        <div>
+                            <div class="nav-menu-cta d-lg-inline-block d-none" data-aos="fade-up">
+                                <a class="btn-1">Login</a>
+                            </div>
+                            <img src="assets/img/icons/toggle.svg" class="toggle me-3 d-xl-none" alt="">
                         </div>
                    </div>
                 </div>
-                <div class="col-lg-5 ps-0">
-                    <h1 class="hero-title">Work anywhere you want.</h1>
-                    <div class="hero-desc">The highest pay and the best benefits. You'll never want to work through another agency again.</div>
-                    <a href="" class="btn-2 hero-cta">SEARCH JOBS</a>
+                <div class="col-xl-5 col-lg-6 ps-0">
+                    <h1 class="hero-title" data-aos="fade-up">Work anywhere you want.</h1>
+                    <div class="hero-desc" data-aos="fade-up">The highest pay and the best benefits. You'll never want to work through another agency again.</div>
+                    <a href="" class="btn-2 hero-cta" data-aos="fade-up">SEARCH JOBS</a>
                 </div>
             </div>
         </div>
@@ -58,10 +69,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center px-0">
-                    <div class="section-title">Explore Top Jobs<span>.</span></div>
+                    <div class="section-title" data-aos="fade-up">Explore Top Jobs<span>.</span></div>
                 </div>
                 <div class="col-lg-12">
-                    <ul class="nav nav-tabs explore-tabs justify-content-center" id="tabs-tab" role="tablist">
+                    <ul class="nav nav-tabs explore-tabs justify-content-center" id="tabs-tab" role="tablist" data-aos="fade-up">
                         <li class="nav-item" role="presentation">
                           <button class="nav-link active" id="tabs-all-tab" data-bs-toggle="tab" data-bs-target="#tabs-all" type="button" role="tab" aria-controls="tabs-all" aria-selected="true">All categories</button>
                         </li>
@@ -84,7 +95,7 @@
                     <div class="tab-content explore-tabs-content" id="tabs-tabContent">
                         <div class="tab-pane fade show active" id="tabs-all" role="tabpanel" aria-labelledby="tabs-home-tab">
                             <div class="row justify-content-center align-items-end card-jobs-outer">
-                                <div class="col-lg-3 px-2">
+                                <div class="col-lg-3 px-2" data-aos="fade-up">
                                     <div class="card-jobs">
                                         <div class="row">
                                             <div class="col-8"><div class="card-jobs-arrow-top"></div></div>
@@ -126,7 +137,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 px-2">
+                                <div class="col-lg-3 px-2" data-aos="fade-up">
                                     <div class="card-jobs">
                                         <div class="row">
                                             <div class="col-8"><div class="card-jobs-arrow-top"></div></div>
@@ -168,7 +179,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 px-2">
+                                <div class="col-lg-3 px-2" data-aos="fade-up">
                                     <div class="card-jobs">
                                         <div class="row">
                                             <div class="col-8"><div class="card-jobs-arrow-top"></div></div>
@@ -210,7 +221,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 px-2">
+                                <div class="col-lg-3 px-2" data-aos="fade-up">
                                     <div class="card-jobs">
                                         <div class="row">
                                             <div class="col-8"><div class="card-jobs-arrow-top"></div></div>
@@ -253,7 +264,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="text-center">
+                            <div class="text-center" data-aos="fade-up">
                                 <a href="" class="btn-4 mb-5">FIND MORE JOBS</a>
                             </div>
                         </div>
@@ -263,6 +274,275 @@
                         <div class="tab-pane fade" id="tabs-behavioral" role="tabpanel" aria-labelledby="tabs-contact-tab"></div>
                         <div class="tab-pane fade" id="tabs-technicians" role="tabpanel" aria-labelledby="tabs-contact-tab"></div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-4 col-lg-5 ps-0">
+                    <div class="section-title" data-aos="fade-up">Work with the best<span>.</span></div>
+                </div>
+                <div class="col-lg-6 offset-xxl-2 offset-lg-1">
+                    <div class="work-desc" data-aos="fade-up">Staffbright tracks quality metrics across all of our partner facilities, and only works with organizations that treat our travelers the way we treat them ourselves - with respect, courtesy, and care. </div>
+                    <div class="work-image-card" data-aos="fade-up">
+                        <div class="work-image-info">
+                            <div class="work-image-info-title">12.000+</div>
+                            <div class="work-image-info-body">FACILITIES+</div>
+                        </div>
+                        <div class="work-image-info">
+                            <div class="work-image-info-title">100.000+</div>
+                            <div class="work-image-info-body">HOSPITAL BEDS+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row work-featured">
+                <div class="col-lg-5">
+                    <div class="row work-list d-flex align-items-center" data-aos="fade-up">
+                        <div class="col-xl-3 col-lg-2 ps-0">
+                            <div class="work-list-icon">
+                                <span>
+                                    <img src="assets/img/availability.svg" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-8 ps-0 work-list-content">
+                            <div class="work-list-title">Availability</div>
+                            <div class="work-list-body">Our recruiters are available 24/7 for anything that comes up on assignment.</div>
+                        </div>
+                    </div>
+                    <div class="row work-list d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-xl-3 col-lg-2 ps-0">
+                            <div class="work-list-icon">
+                                <span>
+                                    <img src="assets/img/benefit.svg" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-8 ps-0 work-list-content">
+                            <div class="work-list-title">Benefits</div>
+                            <div class="work-list-body">Day 1 benefits fully covered by Staffbright, including healthcare.</div>
+                        </div>
+                    </div>
+                    <div class="row work-list d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+                        <div class="col-xl-3 col-lg-2 ps-0">
+                            <div class="work-list-icon">
+                                <span>
+                                    <img src="assets/img/top-pay.svg" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-8 ps-0 work-list-content">
+                            <div class="work-list-title">Top Pay</div>
+                            <div class="work-list-body">We beat other top agencies' pay for the same assignment every time. Search our jobs to see for yourself.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 ps-0">
+                    <div class="work-image-outer">
+                        <div class="work-image">
+                            <img src="assets/img/work.svg" alt="" data-aos="zoom-in" data-aos-delay="100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="what">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center px-0">
+                    <div class="section-title" data-aos="fade-up">What our employees say<span>.</span></div>
+                </div>
+                <div class="col-lg-12 px-0">
+                    <div class="owl-carousel testimony-section" id="owl-testimony" data-aos="fade-up" data-aos-delay="100">
+                        <div class="item">
+                            <div class="testimony">
+                                <div class="testimony-star">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span class="star-grey"></span>
+                                </div>
+                                <div class="testimony-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae semper euismod proin augue. Morbi dolor lacus, eget vitae suspendisse lorem condimentum in.
+                                </div>
+                                <div class="testimony-footer">
+                                    <div class="testimony-image">
+                                        <img src="assets/img/testimony/testimony-1.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="testimony-footer-body">
+                                        <div class="testimony-name">Devon Lane</div>
+                                        <div class="testimony-company">General Electric</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="testimony">
+                                <div class="testimony-star">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="testimony-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae semper euismod proin augue. Morbi dolor lacus, eget vitae suspendisse lorem condimentum in.
+                                </div>
+                                <div class="testimony-footer">
+                                    <div class="testimony-image">
+                                        <img src="assets/img/testimony/testimony-2.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="testimony-footer-body">
+                                        <div class="testimony-name">Kathryn Murphy</div>
+                                        <div class="testimony-company">Louis Vuitton</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <div class="testimony">
+                                <div class="testimony-star">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="testimony-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae semper euismod proin augue. Morbi dolor lacus, eget vitae suspendisse lorem condimentum in.
+                                </div>
+                                <div class="testimony-footer">
+                                    <div class="testimony-image">
+                                        <img src="assets/img/testimony/testimony-3.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="testimony-footer-body">
+                                        <div class="testimony-name">Dianne Russell</div>
+                                        <div class="testimony-company">IBM</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <div class="testimony">
+                                <div class="testimony-star">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="testimony-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae semper euismod proin augue. Morbi dolor lacus, eget vitae suspendisse lorem condimentum in.
+                                </div>
+                                <div class="testimony-footer">
+                                    <div class="testimony-image">
+                                        <img src="assets/img/testimony/testimony-4.png" alt="" class="w-100">
+                                    </div>
+                                    <div class="testimony-footer-body">
+                                        <div class="testimony-name">Arlene McCoy</div>
+                                        <div class="testimony-company">Ferrari</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="owl-arrow text-center" data-aos="fade-up" data-aos-delay="200">
+                        <a href="javascript:void(0);" class="owl-previous">
+                            <img src="assets/img/icons/arrow-left.svg" alt="">
+                        </a>
+                        <a href="javascript:void(0);" class="owl-next">
+                            <img src="assets/img/icons/arrow-right.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="cta-box" data-aos="fade-up">
+                        <div class="row align-items-center position-relative">
+                            <div class="col-lg-7 pe-5">
+                                <div class="section-title">Join medmetry now <span>.</span></div>
+                                <div class="cta-box-subtitle">
+                                    Ready to take the next step? Search our jobs and see what's out there. 
+                                </div>
+                            </div>
+                            <div class="col-lg-2 text-center ps-4">
+                                <div class="cta-line"></div>
+                            </div>
+                            <div class="col-lg-3 text-center">
+                                <div class="cta-button-outer">
+                                    <a href="" class="cta-button">
+                                        <img src="assets/img/icons/arrow-cta.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="pe-5">
+                        <img src="assets/img/logo.png" alt="" class="w-100">
+                    </div>
+                    <div class="pt-2 footer-subtitle">
+                        The highest pay and the best benefits benefits. 
+                    </div>
+                    <div class="pt-3">
+                        <a href="https://instagram.com" class="footer-social">
+                            <img src="assets/img/icons/instagram.svg" alt="">
+                        </a>
+                        <a href="https://youtube.com" class="footer-social">
+                            <img src="assets/img/icons/youtube.svg" alt="">
+                        </a>
+                        <a href="https://twitter.com" class="footer-social">
+                            <img src="assets/img/icons/twitter.svg" alt="">
+                        </a>
+                        <a href="https://facebook.com" class="footer-social">
+                            <img src="assets/img/icons/facebook.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-5 text-center">
+                    <ul class="footer-menu px-0">
+                        <li><a href="">Jobs</a></li>
+                        <li><a href="">Healthcare Staffing</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-4">
+                    <div class="footer-form">
+                        <span>Stay updated,<br/> join our mailing list.</span>
+                        <div>
+                            <input type="text" placeholder="Enter your email">
+                            <span class="footer-form-icon">
+                                <img src="assets/img/icons/arrow-cta.svg" alt="">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-copy">
+                <div class="col-lg-12 text-center">
+                    &copy; Copyright by Staffbright. All rights reserved. 2022
                 </div>
             </div>
         </div>
