@@ -1144,6 +1144,10 @@ h1.hero-title {
     color: rgba(38, 38, 38, 0.8);
     padding: 0 85px;
 }
+.about-body-details {
+    margin-top: 54px;
+    margin-bottom: 48px;
+}
 .about-arrow {
     text-align: center;
     margin-bottom: 33px;
@@ -1209,6 +1213,7 @@ h1.hero-title {
 }
 
 #medical-staff a {
+    font-weight: 600;
     display: inline-block;
     color: #FF9C00;
     padding: 12px 25px;
@@ -1311,4 +1316,202 @@ h1.hero-title {
 }
 .benefit-box p {
     color: rgba(38, 38, 38, 0.8);
+}
+
+/* ------- Blog ------- */
+#blog {
+    margin-top: 123px;
+    background: url('../assets/img/wave-bg.svg') no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+}
+.blog-featured {
+    padding: 41px 86px 64px 34px;
+}
+.blog-featured-tags {
+    margin-bottom: 30px;
+}
+.blog-featured-tags span {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #828792;
+    margin-right: 13px;
+}
+.blog-featured-tags div,
+.blog-box-tags div {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 5px 9px;
+    color: #FAAE4B;
+    border: 1px solid #FAAE4B;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.blog-featured-title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 105%;
+    color: #15141A;
+    margin-bottom: 30px;
+}
+.blog-featured-body {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgba(38, 38, 38, 0.8);
+    margin-bottom: 30px;
+}
+.blog-featured-profile,
+.blog-box-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 62px;
+}
+.blog-featured-profile-image,
+.blog-box-profile-image {
+    position: relative;
+    overflow: hidden;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+}
+.blog-featured-profile-image img,
+.blog-box-profile-image img {
+    width: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.blog-featured-profile h4,
+.blog-box-profile h4 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #040101;
+    margin-bottom: 0;
+}
+.blog-featured-profile span,
+.blog-box-profile span {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    color: #C4C4C4;
+}
+.blog-featured-cta a {
+    display: inline-block;
+    color: #FF9C00;
+    font-weight: 600;
+}
+.blog-featured-cta a img {
+    width: 24px;
+    margin-left: 4px;
+}
+.blog-box {
+    padding: 33px 36px;
+    background: #FFFFFF;
+    display: block;
+    box-shadow: 0px 64px 50px -32px rgba(6, 7, 37, 0.04);
+    border-radius: 25px;
+    margin-bottom: 24px;
+}
+.blog-box-tags {
+    margin-bottom: 15px;
+}
+.blog-box-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #15141A;
+    margin-bottom: 18px;
+}
+
+/* ------- Blog Details------- */
+#blog-details {
+    margin-top: 123px;
+}
+#blog-nav {
+    margin-top: 16px;
+}
+.blog-featured-slash {
+    margin: 0 8px;
+}
+.blog-featured-profile-social {
+    display: block;
+}
+.blog-featured-profile-social a {
+    display: inline-block;
+    width: 21px;
+    margin-right: 12px;
+}
+.blog-thumbnail {
+    margin-top: 48px;
+    margin-bottom: 68px;
+}
+.border-blog-details {
+    height: 1px !important;
+    opacity: 1;
+    background-color: rgba(38, 38, 38, 0.8);
+    margin-top: 0;
+    margin-bottom: 48px;
+}
+.blog-details-social {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.blog-details-social a {
+    display: inline-block;
+    margin-right: 12px;
+    width: 21px;
+}
+.blog-profile {
+    display: flex;
+    align-items: center;
+}
+.blog-profile-image {
+    display: inline-block;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 14px;
+}
+.blog-profile-image img {
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    width: 45px;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.blog-profile-desc {
+    margin-left: 59px;
+    margin-bottom: 53px;
+}
+.blog-navigation span {
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #828792;
+}
+.blog-navigation-content {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #15141A;
+}
+.blog-navigation-arrow {
+    display: inline-block;
+    width: 24px;
 }
