@@ -60,7 +60,7 @@ button, input {
     display: inline-block;
 }
 .nav-menu-logo {
-    width: 210px;
+    width: 108px;
 }
 .nav-menu-content > ul {
     list-style: none;
@@ -1439,6 +1439,11 @@ h1.hero-title {
 }
 #blog-nav {
     margin-top: 16px;
+}
+#blog-content {
+    background: url('../assets/img/wave-bg.svg') no-repeat;
+    background-size: 100%;
+    background-position: top center;
 }
 .blog-featured-slash {
     margin: 0 8px;
