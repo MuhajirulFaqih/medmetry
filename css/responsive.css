@@ -182,7 +182,7 @@
         margin: 9px 0;
     }
     .nav-menu-logo {
-        width: 124px;
+        width: 90px;
     }
     h1.hero-title {
         font-size: 32px;
@@ -310,9 +310,62 @@
         right: -20px;
         width: 14px;
     }
+    #jobs {
+        margin-top: 11px;
+    }
+    .jobs-header {
+        padding: 70px 24px;
+    }
+    .list-card-content {
+        margin-top: 20px;
+    }
+    .list-card-title {
+        margin-bottom: 12px;
+    }
+    .list-card-title div {
+        font-size: 14px;
+    }
+    .list-card-title span {
+        font-size: 10px;
+    }
+    .list-card-price {
+        margin-top: -10px;
+    }
+    .list-time {
+        font-size: 8px;
+    }
+    .list-time > div > div > img {
+        width: 10px;
+        margin-right: 2px;
+    }
+    .list-price div {
+        font-size: 16px;
+    }
+    .list-apply {
+        font-size: 12px;
+        padding: 2px 9px;
+    }
+    .list-select {
+        font-size: 12px;
+    }
+    .list-pagination {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .list-pagination ul li a {
+        font-size: 12px;
+    }
+    .desc-title {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .desc-body {
+        font-size: 12px;
+    }
+    
 }
 @media (max-width: 575.98px) {
-	
+    
 }
 @media (max-width: 360px) {
 	

@@ -65,6 +65,7 @@ button, input {
 .nav-menu-content > ul {
     list-style: none;
     margin-bottom: 0;
+    padding-left: 0;
 }
 .nav-menu-content > ul > li {
     display: inline-block;
@@ -656,6 +657,7 @@ h1.hero-title {
     margin-bottom: 60px;
 }
 #desc {
+    margin-top: 110px;
     margin-bottom: 110px;
     padding-top: 80px;
     padding-bottom: 16px;
@@ -970,6 +972,7 @@ h1.hero-title {
     font-size: 18px;
     line-height: 150%;
     color: rgba(38, 38, 38, 0.8);
+    margin-bottom: 30px;
 }
 
 /* ------- Jobs Dedicated ------- */
