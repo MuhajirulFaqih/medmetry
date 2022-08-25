@@ -13,6 +13,9 @@
     $(".toggle-close").click(function() {
         $(".nav-menu-content").toggleClass("show");
     })
+    $(".explore-tabs .nav-link").click(function() {
+        $(".explore-tabs").toggleClass("dropnav");
+    })
 
     AOS.init({ offset: 0, duration: 500, delay: 50 });
 
@@ -85,7 +88,7 @@ owlSlider.owlCarousel({
     animateOut: 'ease-in-out',
     responsive: {
         480: {
-            items: 4,
+            items: 1,
         },
         992: {
             slideBy: 1,

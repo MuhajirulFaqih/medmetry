@@ -60,7 +60,7 @@ button, input {
     display: inline-block;
 }
 .nav-menu-logo {
-    width: 108px;
+    width: 210px;
 }
 .nav-menu-content > ul {
     list-style: none;
@@ -200,8 +200,7 @@ h1.hero-title {
 .explore-tabs .nav-link {
     color: rgba(38, 38, 38, 0.8);
     padding: 0;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin: 0 15px 15px;
     transition: none;
     outline: none !important;
 }
