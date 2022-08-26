@@ -434,6 +434,7 @@
     .medical-service-box {
         padding: 32px 20px;
         margin-bottom: 20px;
+        min-height: 312px;
     }
     .medical-service-box img {
         width: 100px;
@@ -445,6 +446,9 @@
     }
     #about {
         margin-top: 40px;
+        background: url('../assets/img/wave-bg-mobile.svg') no-repeat;
+        background-size: 100%;
+        background-position: center 462px;
     }
     .about-box {
         padding: 44px 14px;
@@ -475,6 +479,9 @@
     }
     #benefit-features {
         margin-top: 40px;
+        background: url('../assets/img/wave-bg-mobile.svg') no-repeat;
+        background-size: 100%;
+        background-position: center;
     }
     .benefit-box {
         padding: 30px 24px;
@@ -486,6 +493,9 @@
     }
     #blog {
         margin-top: 40px;
+        background: url('../assets/img/wave-bg-mobile.svg') no-repeat;
+        background-size: 100%;
+        background-position: center;
     }
     .blog-featured {
         padding: 0;
@@ -532,6 +542,11 @@
     }
     #blog-details .blog-featured-profile {
         justify-content: center;
+    }
+    #blog-content {
+        background: url('../assets/img/wave-bg-mobile.svg') no-repeat;
+        background-size: 100%;
+        background-position: bottom center;
     }
     .blog-thumbnail {
         margin-top: 40px;
