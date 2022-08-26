@@ -182,7 +182,7 @@
         margin: 9px 0;
     }
     .nav-menu-logo {
-        width: 90px;
+        width: 120px;
     }
     h1.hero-title {
         font-size: 32px;
@@ -362,7 +362,208 @@
     .desc-body {
         font-size: 12px;
     }
-    
+    .dedicated-box {
+        padding: 20px 14px;
+        margin-top: 20px;
+    }
+    .dedicated-box-title {
+        font-size: 24px;
+    }
+    .dedicated-box-title > span {
+        font-size: 10px;
+    }
+    .dedicated-box-body {
+        padding: 20px 17px;
+    }
+    .dedicated-box-body-item, .dedicated-box-body-item-title {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .dedicated-box-body-first {
+        margin-bottom: 16px;
+    }
+    .dedicated-price {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .dedicated-price span {
+        font-size: 12px;
+    }
+    .dedicated-apply, .dedicated-cta {
+        display: inline-block;
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+    .dedicated-description {
+        margin-bottom: 10px;
+    }
+    .dedicated-facility {
+        padding-bottom: 10px;
+    }
+    #healthcare {
+        margin-top: 40px;
+    }
+    .about-subtitle {
+        font-size: 12px;
+    }
+    .about-body {
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    #medical-staff {
+        margin-top: 8px;
+    }
+    #medical-staff a {
+        padding: 0;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .medical-staff-image::after {
+        width: 24px;
+        right: 5%;
+    }
+    #medical-service {
+        margin-top: 40px;
+        padding: 0px 0px 40px;
+    }
+    .medical-service-box-outline {
+        margin-top: 20px;
+    }
+    .medical-service-box {
+        padding: 32px 20px;
+        margin-bottom: 20px;
+    }
+    .medical-service-box img {
+        width: 100px;
+        margin-bottom: 26px;
+    }
+    .medical-service-box div {
+        margin-bottom: 16px;
+        font-size: 20px;
+    }
+    #about {
+        margin-top: 40px;
+    }
+    .about-box {
+        padding: 44px 14px;
+        border-radius: 15px;
+        font-size: 14px;
+    }
+    .about-box-title {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    .about-image::after {
+        width: 104px;
+    }
+    .about-box .row {
+        margin-bottom: 60px;
+    }
+    .about-image-2::after {
+        width: 107px;
+        right: auto;
+        left: 0;
+        top: 75%;
+    }
+    #benefit {
+        margin-top: 40px;
+    }
+    #benefit-recruitment {
+        margin-top: 20px;
+    }
+    #benefit-features {
+        margin-top: 40px;
+    }
+    .benefit-box {
+        padding: 30px 24px;
+        min-height: 312px;
+        margin-bottom: 20px;
+    }
+    .benefit-box div {
+        font-size: 18px;
+    }
+    #blog {
+        margin-top: 40px;
+    }
+    .blog-featured {
+        padding: 0;
+        padding-bottom: 40px;
+    }
+    .blog-box {
+        padding: 24px 18px;
+    }
+    .blog-featured-tags {
+        margin-bottom: 17px;
+    }
+    .blog-featured-title {
+        font-size: 24px;
+        margin-bottom: 17px;
+    }
+    .blog-featured-body {
+        font-size: 14px;
+    }
+    .blog-featured-profile {
+        margin-bottom: 17px;
+    }
+    .blog-featured-profile h4, .blog-box-profile h4 {
+        font-size: 14px;
+    }
+    .blog-featured-profile span, .blog-box-profile span {
+        font-size: 12px;
+    }
+    .blog-featured-profile-image, .blog-box-profile-image {
+        width: 30px;
+        height: 30px;
+    }
+    .blog-featured-profile-image img, .blog-box-profile-image img {
+        width: 30px;
+    }
+    .blog-featured-profile-social a {
+        width: 14px;
+        margin-right: 4px;
+    }
+    .blog-box-title {
+        font-size: 18px;
+    }
+    #blog-details {
+        margin-top: 40px;
+    }
+    #blog-details .blog-featured-profile {
+        justify-content: center;
+    }
+    .blog-thumbnail {
+        margin-top: 40px;
+        margin-bottom: 56px;
+    }
+    .about-body-details {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .blog-details-social a {
+        width: 16px;
+        margin-right: 4px;
+    }
+    .border-blog-details {
+        margin-bottom: 32px;
+    }
+    .blog-featured-tags span {
+        display: block;
+        margin-bottom: 8px;
+    }
+    .blog-profile-desc {
+        margin-bottom: 30px;
+    }
+    .blog-navigation {
+        margin-bottom: 20px;
+    }
+    .blog-navigation span {
+        font-size: 12px;
+    }
+    .blog-navigation-content {
+        font-size: 14px;
+    }
 }
 @media (max-width: 575.98px) {
     
