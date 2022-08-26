@@ -86,6 +86,8 @@
     }
     .nav-menu-content.show {
         margin-top: 0;
+        overflow-y: auto;
+        max-height: 100vh;
     }
     .nav-menu-content > ul > li {
         display: block;
