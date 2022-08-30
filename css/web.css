@@ -235,7 +235,7 @@ h1.hero-title {
     background: #FF9C00;
 }
 .explore-tabs-content {
-    padding-top: 129px;
+    padding-top: 60px;
 }
 
 /* Card jobs */
@@ -1123,7 +1123,7 @@ h1.hero-title {
 
 /* ------- About Us ------- */
 #about {
-    margin-top: 123px;
+    margin-top: 80px;
     background: url('../assets/img/wave-bg-about.svg') no-repeat;
     background-size: 100%;
     background-position: center 328px;
@@ -1208,10 +1208,10 @@ h1.hero-title {
 
 /* ------- Healthcare ------- */
 #healthcare {
-    margin-top: 123px;
+    margin-top: 80px;
 }
 #medical-staff {
-    margin-top: 123px;
+    margin-top: 80px;
 }
 
 #medical-staff a {
@@ -1272,7 +1272,7 @@ h1.hero-title {
 
 /* ------- Benefit ------- */
 #benefit {
-    margin-top: 123px;
+    margin-top: 80px;
 }
 #benefit-recruitment {
     margin-top: 97px;
@@ -1297,13 +1297,13 @@ h1.hero-title {
     margin-top: 60px;
 }
 .benefit-box {
-    padding: 41px 25px 9px;
+    padding: 24px 25px 9px;
     background: #FFFFFF;
     box-shadow: 0px 64px 50px -32px rgba(6, 7, 37, 0.04);
     border-radius: 25px;
     text-align: center;
-    min-height: 421px;
-    margin-bottom: 60px;
+    min-height: 359px;
+    margin-bottom: 20px;
 }
 .benefit-box img {
     width: 83px;
@@ -1322,7 +1322,7 @@ h1.hero-title {
 
 /* ------- Blog ------- */
 #blog {
-    margin-top: 123px;
+    margin-top: 80px;
     background: url('../assets/img/wave-bg.svg') no-repeat;
     background-size: 100%;
     background-position: bottom center;
@@ -1437,7 +1437,7 @@ h1.hero-title {
 
 /* ------- Blog Details------- */
 #blog-details {
-    margin-top: 123px;
+    margin-top: 80px;
 }
 #blog-nav {
     margin-top: 16px;
