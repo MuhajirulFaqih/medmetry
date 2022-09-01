@@ -71,6 +71,7 @@
     #hero {
         background-size: cover;
         background-position-x: -130px;
+        background-position-y: bottom;
     }
 	.nav-menu-content {
         position: fixed;
