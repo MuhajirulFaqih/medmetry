@@ -22,19 +22,19 @@
         min-height: 650px;
     }
     #explore {
-        margin-top: 74px;
+        margin-top: 40px;
     }
     #work {
-        margin-top: 109px;
+        margin-top: 32px;
     }
     #what {
-        margin-top: 71px;
+        margin-top: 32px;
     }
     #cta {
         margin-top: 33px;
     }
     #footer {
-        margin-top: 127px;
+        margin-top: 56px;
     }
     .hero-desc {
         font-size: 16px;
@@ -429,7 +429,7 @@
     }
     #medical-service {
         margin-top: 40px;
-        padding: 0px 0px 40px;
+        padding: 0px 0px 24px;
     }
     .medical-service-box-outline {
         margin-top: 20px;
@@ -455,6 +455,7 @@
     }
     .about-box {
         padding: 44px 14px;
+        padding-bottom: 0;
         border-radius: 15px;
         font-size: 14px;
     }

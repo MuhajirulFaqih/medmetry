@@ -35,19 +35,19 @@ button, input {
     background-color: #FEFEFF !important;
 }
 #explore {
-    margin-top: 94px;
+    margin-top: 56px;
 }
 #work {
-    margin-top: 129px;
+    margin-top: 40px;
 }
 #what {
-    margin-top: 91px;
+    margin-top: 40px;
 }
 #cta {
     margin-top: 53px;
 }
 #footer {
-    margin-top: 157px;
+    margin-top: 72px;
 }
 
 /* Navbar */
@@ -235,7 +235,7 @@ h1.hero-title {
     background: #FF9C00;
 }
 .explore-tabs-content {
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 /* Card jobs */
@@ -1162,6 +1162,7 @@ h1.hero-title {
     background: #02B5A5;
     border-radius: 25px;
     padding: 85px;
+    padding-bottom: 0;
     font-size: 20px;
     line-height: 150%;
     color: rgba(255, 255, 255, 0.8);
@@ -1239,7 +1240,7 @@ h1.hero-title {
 
 #medical-service {
     margin-top: 29px;
-    padding: 89px 0px 103px;
+    padding: 32px 0px 40px;
     background: url('../assets/img/wave-bg.svg') no-repeat;
     background-size: 100%;
     background-position: center;
